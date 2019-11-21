@@ -15,7 +15,7 @@ export class AppComponent implements OnInit {
   fileUpload: any;
   fileUpoadInitiated: boolean;
   fileDownloadInitiated: boolean;
-  private baseUrl = 'http://localhost:4000/api/blobstorage';
+  private baseUrl = 'https://blobstoragenetcore.azurewebsites.net/api/blobstorage';
 
   ngOnInit(): void {
     this.showBlobs();
