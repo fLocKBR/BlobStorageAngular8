@@ -16,7 +16,7 @@ exports.config = {
     'browserName': 'chrome'
   },
   directConnect: true,
-//  baseUrl: 'https://blobstorageangular.azurewebsites.net/',
+  baseUrl: 'https://cissa-dev.azurewebsites.net/',
   framework: 'jasmine',
   jasmineNodeOpts: {
     showColors: true,
